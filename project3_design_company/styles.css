@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container{
+    background-color: rgb(36, 34, 34);
+    color: white;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.menu{
+    display: flex;
+}
+
+.item{
+    margin-left: 10px;
+    padding: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.item:hover{
+    color: red;
+}
+
+
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;            /* monitor er display er size size */
+    background-image: url(./images/background.png), linear-gradient(45deg, rgb(8, 8, 8), rgb(51, 51, 56));
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-text h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.banner-text p{
+    font-size: 18px;
+    margin: 15px 0px;  
+}
+
+.btn{
+    border: none;
+    padding: 10px 22px;
+    background-color: rgb(255, 106, 106);
+    color: black;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: red;
+}
+
+.about-photo img{
+    width: 300px;
+}
+
+.about-contianer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.section-title{
+    font-size: 55px;
+    text-align: center;
+    padding:20px 0px;
+}
+
+.about-text h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-text p{
+    font-size: 18px;
+    margin: 15px 0px;  
+}
+
+.service-container{
+    padding:50px;
+    background-image: url(./images/background.png), linear-gradient(45deg, rgb(8, 8, 8), rgb(56, 56, 58));
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.box{
+    width: 250px;
+    height: 290px;
+    text-align: center;
+    box-shadow: 4px 4px 15px rgb(245, 112, 112);
+    padding: 15px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.box h2{
+    padding : 10px 0px;
+}
+
+.box p{
+    padding-bottom: 15px;
+}
+
+.box img{
+    width: 70px;
+    padding-bottom: 10px;
+}
+
