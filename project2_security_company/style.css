@@ -3,6 +3,9 @@
     margin: 0;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* navbar and banner */
 
@@ -200,7 +203,8 @@ nav{
 .contact-details{
     width: 620px;
     /* border: 2px red solid; */
-    height: 500px;
+    /* height: 500px; */
+    margin: 10px 0px;
 }
 
 .button2{
@@ -255,10 +259,61 @@ nav{
     margin-top: 5px;
 }
 
+
+/* footer */
+
+
 .footer{
     background-color: black;
     border: none;
     text-align: center;
     padding: 20px 0px;
-    color:#C87D4A;
+    color:#ffffff;
 }
+
+.footerparent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.footer1, .footer2{
+    width: 250px;
+}
+
+.footer1logo{
+    display: flex;
+    align-items: center;
+}
+
+.footerimg{
+    width: 40px;
+}
+
+.footerinput{
+    width: 200px;
+    height: 25px;
+    background-color: antiquewhite;
+}
+
+.footer h2{
+    text-decoration: underline;
+    text-decoration-color: #C87D4A;
+    margin: 3px 0px;
+}
+
+.footer2 li{
+    list-style: none;
+}
+
+.footer2 span{
+    color: #C87D4A;
+}
+
+.footer1 h3{
+    color: #C87D4A;
+}
+
